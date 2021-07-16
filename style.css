@@ -1,0 +1,44 @@
+body, html {
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    color: #ecf0ed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(58, 58, 57);
+}
+
+.board {
+    display: inline-table;
+    width: 300px;
+    margin: 25px auto;
+    background-image: linear-gradient(rgb(5, 5, 5), rgb(88, 88, 86));
+    padding: 1px;
+    border-radius: 1px;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 1px;
+    background-color: #979191;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    color: #dedede;
+}
+
+#info {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding: 15px 0;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
